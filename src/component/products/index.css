@@ -1,0 +1,115 @@
+.all-content-container{
+    display: flex;
+    width: 1570px;
+    padding:0 50px 0 50px;
+}
+.all-content-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    padding:0 50px 0 50px;
+}
+.hr{
+    margin-top: 18px;
+    width: 95%;
+    
+  }
+ul{
+    list-style-type: none;
+}
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+}
+.nonne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.recommend{
+    border: none; 
+    margin-right:100px;
+    font-weight: 700;  
+}
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding:0 50px 0 50px;
+    margin: 30px;
+}
+.hide-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+b{
+    margin-right: 40px;
+}
+@media screen and (max-width:768px) {
+    .hide-container{
+        width: 41px;
+        height: 17px;
+        top: 264px;
+        left: 74px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .filter{
+        font-family: "Simplon Norm";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+
+    }
+    .recommend{
+        width: 127px;
+        height: 17px;
+        top: 264px;
+        left: 223px;
+        gap: 4px;
+        opacity: 0px;
+
+    }
+    .filter-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding:0 40px 0 40px;
+        margin: 30px; 
+    }    
+    select{
+        font-weight: 700;
+        border: none;
+    }
+    .products-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 344px;
+        height:489px;
+        margin-left: 37px;
+        padding: 16px 0px 24px 0px;
+        gap: 16px;
+        opacity: 0px;
+
+    }
+    .none{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

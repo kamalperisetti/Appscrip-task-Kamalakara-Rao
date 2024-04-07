@@ -1,0 +1,33 @@
+.sidebar{
+    width:15%;
+}
+
+
+input{
+    margin-right: 10px;
+}
+
+summary{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+}
+summary::before{
+    content: "\25BC";
+    float: right;
+    margin-left: 10px;
+}
+
+.hrr{
+    border:1px solid rgba(229 229 299);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:90%;
+}
+@media screen and (max-width:768px) {
+    .sidebar{
+        width:0%;
+    }
+    
+}

@@ -1,0 +1,94 @@
+.image{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: hsla(0, 0%, 100%, 0.788);
+    border:1px solid  rgb(223, 218, 218);
+
+}
+.product-con{
+    width: 270px;
+    padding: 30px;
+    margin:30px;
+}
+.kk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.heart{
+    height: 18px;
+    width: 18px;
+    color: red;
+    margin-left:4px;
+}
+.hear{
+    height: 18px;
+    width: 18px;
+    margin-left:4px;
+}
+
+@media screen and (max-width:768px) {
+    .image{
+        width: 168px;
+        height: 227px;
+        top: 16px;
+        gap: 0px;
+        opacity: 0px;
+
+    }   
+
+    .dis-container{
+        width:  168px;
+        height: 45px;
+        top: 248px;
+        gap: 4px;
+        opacity: 0px;
+    }
+    .banner-overview{
+        font-family: Simplon Norm;
+        font-size: 14px;
+        width: 130px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: center;
+        
+
+    }
+    .call{
+        font-family: Simplon Norm;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        width: 148px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aa{
+        font-family: Simplon Norm;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: left;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .product-con{
+        width: 100px;
+        padding: 30px;
+        margin:32px;
+    }
+}

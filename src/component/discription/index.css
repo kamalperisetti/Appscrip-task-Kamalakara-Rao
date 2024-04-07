@@ -1,0 +1,40 @@
+.description-container{
+    width: 50%;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
+.hrr{
+    margin-top: 45px;
+}
+
+@media screen and (max-width:768px){
+    .description-container{
+        width: 343px;
+        height: 127px;
+        padding: 0px 0px 16px 0px;
+        gap: 0px;
+        opacity: 0px;
+        margin-right: 300px;
+    }
+    h2{
+        font-family: "Simplon Norm";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: center;
+    }
+    .p{
+        font-family: "Simplon Norm";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+
+    }
+}
